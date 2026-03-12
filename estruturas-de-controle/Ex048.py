@@ -1,13 +1,17 @@
 #Soma de ímpares múltiplos de 3
 
 s=0
-for c in range(1,501):
-    if c%2 == 0:
+c=0
+n=int(input('Qual o número?'))
+for i in range(1,n+1):
+    if i%2 == 0:
         continue
-    elif c%3!=0:
+    elif i%3!=0:
         continue
-    s+=c
-print(s)
+    c+=1
+    s+=i
+print(f'A soma de todos os {c} valores solicitados é {s}')
+
 
 
 

@@ -11,8 +11,11 @@ sleep(1)
 
 input('Aperte enter para começar.')
 
-for c in range (10,0,-1):
+for c in range (10,-1,-1):
     print(c)
     print('')
     sleep(1)
 print(Fore.LIGHTYELLOW_EX + '\U0001F389FELIZ 2027!\U0001F389 ')
+sleep(1)
+print('')
+print(Fore.RED + '\U0001F387BUM BUM! POOOOOW!\U0001F387' )
