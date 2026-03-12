@@ -1,3 +1,5 @@
+#Grupo da maioridade
+
 from datetime import datetime
 atual=datetime.now().year
 maiores=0

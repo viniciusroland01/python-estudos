@@ -15,7 +15,11 @@
 #        break
 
 while True:
-    n = int(input('Digite um número para saber se ele é primo: '))
+    n = input('Digite um número para saber se ele é primo: ')
+    if n.lower() == 'sair':
+        print('Encerrando. . . ')
+        break
+    n=int(n)
     t=0
     for c in range (1, n + 1):
         if n % c == 0 :
@@ -25,6 +29,7 @@ while True:
             print('\033[m' , end='')
         print(f'{c} ' , end= '')
     print('\033[m')
+    print(f'O número {n} foi dividido {t} vezes.')
     if t == 2:
         print('É primo!')
     else:
