@@ -36,6 +36,8 @@ Escolha as opcões :
 
         elif escolha == 5:
             print('Encerrando programa. . .')
+        else:
+            print('Inválido')
 
 
 
